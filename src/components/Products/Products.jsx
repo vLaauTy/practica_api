@@ -11,7 +11,7 @@ const Products = () => {
   }, []);
 
   const getProducts = async () => {
-    const response = await fetch('https://fakestoreapi.com/products');
+    const response = await fetch('http://localhost:3000/ropa');
     setdata(await response.clone().json());
     setfilter(await response.json());
   };
