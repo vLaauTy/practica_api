@@ -1,0 +1,22 @@
+.contenedor {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    max-height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: 30px;
+    gap: 30px;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
